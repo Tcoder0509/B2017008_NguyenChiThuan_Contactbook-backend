@@ -23,7 +23,7 @@ app.use((err, req, res, next) => {
 });
 
 app.get("/", (req, res) => {
-    res.json({ message: "Wellcome to contact book application."});
+    res.json({ message: "Welcome to contact book application."});
 });
 
 module.exports = app;
